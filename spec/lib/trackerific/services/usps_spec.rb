@@ -18,7 +18,7 @@ describe Trackerific::Services::USPS do
 
       describe "#base_uri" do
         subject { described_class.base_uri }
-        it { should eq 'http://production.shippingapis.com' }
+        it { should eq 'http://stg-production.shippingapis.com' }
       end
 
       describe "#config.xml_endpoint" do
