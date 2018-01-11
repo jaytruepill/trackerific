@@ -23,7 +23,7 @@ describe Trackerific::Services::USPS do
 
       describe "#config.xml_endpoint" do
         subject { described_class.config.endpoint }
-        it { should eq '/ShippingAPI.dll' }
+        it { should eq '/ShippingApi.dll' }
       end
     end
 
