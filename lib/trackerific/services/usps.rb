@@ -9,7 +9,7 @@ class Trackerific::Services::USPS < Trackerific::Services::Base
     case Trackerific.env
     when 'production'
       config.endpoint = '/ShippingAPI.dll'
-      config.base_uri = 'http://production.shippingapis.com'
+      config.base_uri = 'http://stg-production.shippingapis.com/'
     else
       config.endpoint = '/ShippingAPITest.dll'
       config.base_uri = 'http://testing.shippingapis.com'
