@@ -11,8 +11,8 @@ class Trackerific::Services::USPS < Trackerific::Services::Base
       config.endpoint = '/ShippingApi.dll'
       config.base_uri = 'http://stg-production.shippingapis.com/'
     else
-      config.endpoint = '/ShippingAPITest.dll'
-      config.base_uri = 'http://testing.shippingapis.com'
+      config.endpoint = '/ShippingApi.dll'
+      config.base_uri = 'http://stg-production.shippingapis.com/'
     end
   end
 
